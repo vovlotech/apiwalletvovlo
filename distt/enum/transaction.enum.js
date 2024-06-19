@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TRANSACTIONSTATUSENUM = exports.TRANSACTIONENUM = void 0;
+var TRANSACTIONENUM;
+(function (TRANSACTIONENUM) {
+    TRANSACTIONENUM["DEPOSIT"] = "Deposit";
+    TRANSACTIONENUM["SWAP"] = "Swap";
+    TRANSACTIONENUM["WITHDRAW"] = "Withdraw";
+    TRANSACTIONENUM["WITHDRAW_FIAT"] = "Withdraw Fiat";
+})(TRANSACTIONENUM || (exports.TRANSACTIONENUM = TRANSACTIONENUM = {}));
+var TRANSACTIONSTATUSENUM;
+(function (TRANSACTIONSTATUSENUM) {
+    TRANSACTIONSTATUSENUM["COMPLETED"] = "Completed";
+    TRANSACTIONSTATUSENUM["PENDING"] = "Pending";
+    TRANSACTIONSTATUSENUM["REJECTED"] = "Rejected";
+})(TRANSACTIONSTATUSENUM || (exports.TRANSACTIONSTATUSENUM = TRANSACTIONSTATUSENUM = {}));
+//# sourceMappingURL=transaction.enum.js.map
