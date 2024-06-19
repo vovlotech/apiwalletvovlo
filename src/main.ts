@@ -10,7 +10,7 @@ async function bootstrap() {
     "origin": "*",
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     "preflightContinue": false,
-    "optionsSuccessStatus": 204
+    "optionsSuccessStatus": 200
   });
   
   app.useGlobalPipes(new ValidationPipe());
